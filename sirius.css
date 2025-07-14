@@ -1,0 +1,107 @@
+.title {
+    font-variant: small-caps;
+    font-family: PT Root UI, Segoe UI, sans-serif;
+    width: 773px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 670px;
+    margin-top: 0.5vh;
+    margin-left: 40px;
+}
+
+.scientist {
+    width: 470px;
+    height: auto;
+}
+
+.instructions {
+    font-family: PT Root UI, Segoe UI, sans-serif;
+    margin-left: 15px;
+    margin-top: -70px;
+    line-height: 20px;
+}
+
+.box {
+    position: absolute;
+    left: -65px;
+    top: -40px;
+
+    background: #ae9ddb;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 24px;
+    margin: 4px 5px;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 30px
+}
+
+.task, .task-star, .answer {
+    position: relative;
+    max-width: 710px;
+    font-family: PT Root UI, Segoe UI, sans-serif;
+    margin-top: 1.5vh;
+    margin-left: 63px;
+    line-height: 20px;
+}
+
+.task-star {
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    left: -25px;
+    top: -1px;
+}
+
+.answer {
+    margin-top: 0vh;
+}
+
+.name {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    /*color: #444549;*/
+    margin-bottom: 12px;
+}
+
+i {
+    font-family: Segoe UI, sans-serif;
+    font-style: italic;
+}
+
+details {
+    margin-top: 20px;
+}
+
+summary {
+    display: inline-block;
+    border-radius: 18px;
+    padding: 6px 16px;
+    background-color: #f1edfa;
+    color: #7b29c9;
+    cursor: pointer;
+}
+
+summary:hover {
+    background-color: #eae0ff;
+}
+
+.solution {
+    margin-top: 20px;
+    padding-left: 16px;
+    border-left: 1px solid #7b29c9;
+}
